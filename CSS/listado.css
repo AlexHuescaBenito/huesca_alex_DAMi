@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.logo{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.3cm;
+    width: 100%;
+    
+}
+header {
+    background-color: white;
+    width: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+
+}
+
+body nav{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 12%;
+    z-index: 1;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    height: 3em;
+    width: 100%;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.7em;
+}
+
+a.index:hover {
+    color:#7ABA96;
+}
+
+.barras_nav{
+    opacity: 40%;
+}
+body{
+    background-color:rgb(211, 209, 206);
+    background-image:url('/multimedia/imagenes/background_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.recetas{
+    margin-top: 13em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7f9ef;
+    margin-left: 15em;
+    margin-right: 15em;
+    height: 100%;
+    padding-bottom: 2em;
+    border-radius: 5px;
+}
+#titulo{
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+#intro{
+    font-size: 1.2em;
+}
+table{
+    background-color: rgb(192, 239, 208);
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+table ,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 1.5em;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+.fotos{
+    width: 15%;
+    height: 15%;
+    margin: 1em;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.titulo_receta{
+
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    width: fit-content;
+}
+a.titulo_receta:hover{
+    color:#b3b3b3 ;
+}
+#logo{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 55%;
+    margin-top: 0;
+}
+.logo_titulo{
+    height: 8em;
+    margin-bottom: 3em;
+}
+.informacion{
+    border-radius: 5px;
+    background-color: #75ba93;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    float: right;
+    margin-top: 1em;
+    margin-right: -0.1em;
+    margin-left: -1em;
+    padding-bottom: 0;
+
+}
+.informacion p{
+    text-align: justify;
+}
+.list{
+    padding: 1em;
+}
+.negrita{
+    font-weight: bold;
+}
+a#mas:hover{
+    color: #ffffff;
+}
+
+.paginacion{
+    margin: 20px 0;
+}
+.paginacion ul{
+    list-style: none;
+    text-align: center;
+
+}
+.paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.paginacion ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color:#7ABA96 ;
+    text-decoration: none;
+}
+.paginacion ul li a:hover{
+    background-color: #a0dcba
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2cm;
+    position:relative;
+    bottom:0;
+    width: 100%;
+    margin-top: 2.6em;
+}
+
+footer p{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+#end{
+    padding-top: 0;
+}

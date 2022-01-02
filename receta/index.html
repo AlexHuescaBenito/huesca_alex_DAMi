@@ -1,65 +1,134 @@
-!DOCTYPE html>
-<!-- *****************************************************
-NOMBRE:
-APELLIDOS:
-*********************************************************** -->
+<!DOCTYPE html>
 <html>
 
-<head>
-	<meta charset="utf-8" />
+	<head>
+		<meta charset="utf-8" />
 
-	<link rel="stylesheet" href="Pr3_nombreApellido.css" />
-	<title>Delicias Kitchen</title>
-</head>
+		<link rel="stylesheet" href="/CSS/style.css">
+		<title>Delicias Kitchen</title>
 
-<body>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
-	Inicio
-	Sobre mí
-	Recetas
-	Contacto
-	Otras cosas
+	</head>
 
+	<body>
+		<header>
+			<div class="logo">
+				<img  src="/multimedia/imagenes/Logo-Delicias.png">
+			</div>
+		</header> 
+		<nav>
+			<hr class="barras_nav">
+			<ul>
+				<li><a href="/receta/index.html">INICIO</a></li>
+				<li><a href="#">SOBRE MÍ</a></li>
+				<li><a href="/listado/listdo.html">RECETAS</a></li>
+				<li><a href="/contacto/contacto.html">CONTACTO</a></li>
+				<li><a href="#">OTRAS COSAS</a></li>
+			</ul>
+			<hr class="barras_nav">
+		</nav>
 
-	Sobre mi
+		<aside>
+			<div id="mujer">
+				<p class="tituloaside"><b>Sobre mi</b></p>
+				<img class="fotomujer" src="/multimedia/imagenes/isagil.png">
 
-	Hola, bienvenid@ a mi blog, un espacio donde quiero compartir mis recetas vegetarianas y veganas favoritas...
-	Suscríbete a mi blog
+				<p>	Hola, bienvenid@ a mi blog, un espacio donde quiero compartir mis recetas vegetarianas y veganas favoritas...
+				</p>
+			</div>
+				
+		
+			<div class="libro">
+				<p class="tituloaside"><b>Suscríbete a mi blog</b></p>
+				<img class="librofoto" src="/multimedia/imagenes/libro.png">
+				<p id="gratis">	Y consigue GRATIS mi eBook con 10 recetas exclusivas con superalimentos.</p>
+				<p class="tituloaside" id="apuntame"><b>Apúntame</b></p>
 
+			</div>
 
-	Y consigue GRATIS mi eBook con 10 recetas exclusivas con superalimentos.
-	Apúntame
+		</aside>
+		
+		<main>
 
+			
 
-	Pasta con salsa de coliflor y pimienta de Jamaica
-	13 marzo, 2019
-	Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está elaborada con coliflor y con
-	otros ingredientes vegetales, que la convierten en…
+			<div id="fila1">
+				<div class="platos">
+					<img src="/multimedia/imagenes/Pasta.jpg" class="fotoplato">
+					<a href="/receta/receta.html" class="title">Pasta con salsa de coliflor y pimienta de Jamaica</a> 
+					<!-- los titulos de cada plato deben ser un href -->
+					<hr color=#7ABA96>
+					<p>13 marzo, 2019</p>
+					<hr color=#7ABA96>
+					<p class="description">Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está elaborada con coliflor y con
+					otros ingredientes vegetales, que la convierten en…</p>
+				</div>
+		
+			
+				<div class="platos">
+					<img src="/multimedia/imagenes/galletas.jpg" class="fotoplato">
+					<a href="/receta/receta.html" class="title">Galletas de avena, rosa y lima<a>
+					<hr color=#7ABA96>
+					<p>12 febrero, 2019</p>
+					<hr color=#7ABA96>
+					<p class="description">Galletitas para San Valentín? Estas galletas ricas y crujientes, elaboradas con avena y con un rico sabor a rosa y
+					lima son perfectas para celebrarlo!</p>
+				</div>
+			</div>
 
+		
+			<div id="fila2">
+				<div class="platos">
+					<img src="/multimedia/imagenes/mijo.jpg" class="fotoplato">
+					<a href="/receta/receta.html" class="title">Mijo cremoso con lentejas, hortalizas y shiitake</a>
+					<hr color=#7ABA96>
+					<p>1 febrero, 2019</p>
+					<hr color=#7ABA96>
+					<p class="description">Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo que necesitas para templar el cuerpo este
+					invierno! Delicioso y fácil!</p>
+				</div>
+		
+			
+				<div class="platos">
+					<img src="/multimedia/imagenes/calabacines.jpg" class="fotoplato">
+					<a href="/receta/receta.html" class="title">Calabacines rellenos de arroz negro y calabaza</a>
+					<hr color=#7ABA96>
+					<p>18 diciembre, 2018</p>
+					<hr color=#7ABA96>
+					<p class="description">Estos calabacines rellenos de arroz negro y calabaza que te propongo hoy, son la última receta que publico en el
+					blog en…</p>
+				</div>
+			</div>
 
-	Galletas de avena, rosa y lima
-	12 febrero, 2019
-	Galletitas para San Valentín? Estas galletas ricas y crujientes, elaboradas con avena y con un rico sabor a rosa y
-	lima son perfectas para celebrarlo!
+			
 
+		</main>
 
-	Mijo cremoso con lentejas, hortalizas y shiitake
-	1 febrero, 2019
-	Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo que necesitas para templar el cuerpo este
-	invierno! Delicioso y fácil!
+	</body>
 
+	<footer>
+		<p>
+			FACEBOOK
+		</p>
+		<p>
+			TWITTER
+		</p>
+		<p>
+			INSTAGRAM
+		</p>
+		<p>
+			PINTEREST
+		</p>
+		<p>
+			EMAIL
+		</p>
+		<p>
+			RSS
+		</p>
+	</footer>
 
-	Calabacines rellenos de arroz negro y calabaza
-	18 diciembre, 2018
-	Estos calabacines rellenos de arroz negro y calabaza que te propongo hoy, son la última receta que publico en el
-	blog en…
-
-	Facebook
-	Twitter
-	Instagram
-	Pinterest
-	Email
-	RSS
-</body>
 
 </html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" href="/CSS/contacto.css">
+		<title>Delicias Kitchen</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pushster&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+	</head>
+
+    
+    <body>
+        <section>
+            <h3>Tienes alguna duda o aportación? Contacta conmigo rellenando este formulario!</h3> 
+            <form action="/receta/" method="get">
+                <label class="text" for="fname"> Nombre:</label><br>
+                <input type="text" id="fname" name="fname" required><br><br>
+                <label class="text" for="lname"> Apellidos:</label><br>
+                <input type="text" name="lname" id="lname" required><br><br>       
+                <label class="text" for="mail">Correo electrónico:</label><br>
+                <input type="email" name="mail" id="mail" required><br><br>
+                <label class="text" for="phone">Número de teléfono</label><br>
+                <select name="phone" id="phone" required>
+                    <option value="Calle">+34</option>
+                    <option value="Avenida">+33</option>
+                    <option value="Paseo">+49</option>
+                    <option value="Plaza">+44</option>
+                </select>
+                <input type="text" name="phone" id="phone" placeholder="Número de teléfono" required><br><br>
+                <label class="text" for="birthday"> Fecha de nacimiento:</label><br>
+                <input type="date" name="birthday" id="birthday"><br><br>
+                <br>
+                <label class="text" for="sexo"> Sexo:</label>
+                <input type="radio" name="sexo" id="sexo">Hombre 
+                <input type="radio" name="sexo" id="sexo">Mujer
+                <input type="radio" name="sexo" id="sexo">Otro <br><br><br>
+                <label class="text" for="wish"> Escribe a continuación tu duda o aportación! </label><br><br>
+                <textarea name="wish" id="wish" cols="30" rows="10" required placeholder="Adelante, no te cortes..."></textarea><br>
+                <br><br>
+                <label class="text" for="reset">Restablecer todos los datos?</label><br>
+                <input type="reset" name="reset" id="reset"><br>
+                <br>
+                <label class="text" for="send">O ya estás listo para:</label><br>
+                <input type="submit" name="send" id="send" value="Enviar">      
+            </form>
+        </section>     
+            
+    </body>
+</html>    
