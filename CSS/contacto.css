@@ -5,7 +5,7 @@
 }
 body{
     background-color:rgb(211, 209, 206);
-    background-image:url('/multimedia/imagenes/backgroundimage.jpg');
+    background-image:url('../multimedia/imagenes/backgroundimage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

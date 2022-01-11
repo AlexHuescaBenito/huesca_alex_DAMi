@@ -54,7 +54,7 @@ a.index:hover {
 }
 body{
     background-color:rgb(211, 209, 206);
-    background-image:url('/multimedia/imagenes/background_image.jpg');
+    background-image:url('../multimedia/imagenes/background_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
