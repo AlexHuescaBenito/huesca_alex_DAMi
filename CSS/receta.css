@@ -3,20 +3,21 @@
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 .logo{
     background-color: white;
     display: flex;
     justify-content: center;
-    margin-bottom: 0.3cm;
     width: 100%;
+    padding-bottom: 1em;
     
 }
 header {
     background-color: white;
     width: 100%;
     width: 100%;
-    position: fixed;
-    top: 0%;
+/*     position: fixed;
+    top: 0%; */
     z-index: 1;
 
 }
@@ -24,8 +25,8 @@ header {
 body nav{
     background-color: white;
     width: 100%;
-    position: fixed;
-    top: 12%;
+    position: sticky;
+    top: 0%;
     z-index: 1;
 
 }
@@ -43,6 +44,13 @@ nav ul li a{
     text-decoration: none;
     color: black;
     padding: 0.7em;
+}
+
+ul li a:hover {
+    color:#7ABA96;
+}
+.barras_nav{
+    opacity: 40%;
 }
 
 a:hover {
@@ -67,6 +75,9 @@ main{
     margin-top: 10px;
     background-color: #7ABA96;
     border: none;
+}
+.recetas{
+    margin-top: 3em;
 }
 .titulo_receta{
     padding-left: 15em;
@@ -96,6 +107,9 @@ aside{
     padding-right: 1em;
     border-radius: 7px;
     padding-bottom: 0.5em;
+}
+.titulo_receta{
+    margin-top: 3em;
 }
 
 .informacion{

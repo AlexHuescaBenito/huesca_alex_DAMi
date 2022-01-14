@@ -8,16 +8,16 @@
     background-color: white;
     display: flex;
     justify-content: center;
-    margin-bottom: 0.3cm;
     width: 100%;
+    padding-bottom: 1em;
     
 }
 header {
     background-color: white;
     width: 100%;
     width: 100%;
-    position: fixed;
-    top: 0%;
+/*     position: fixed;
+    top: 0%; */
     z-index: 1;
 
 }
@@ -25,8 +25,8 @@ header {
 body nav{
     background-color: white;
     width: 100%;
-    position: fixed;
-    top: 12%;
+    position: sticky;
+    top: 0%;
     z-index: 1;
 
 }
@@ -65,7 +65,7 @@ aside{
     display:inline-block;
     position: relative;
     left: 15%;
-    margin-top: 12em;
+    margin-top: 2em;
 }
 
 #mujer{
@@ -141,7 +141,7 @@ footer p{
 main{
     width: 60%;
     float: right;
-    margin-top: 12em;
+    margin-top: 2em;
     margin-right: 3.5cm;
 }
 
@@ -168,7 +168,7 @@ main{
 }
 
 .title{
-    font-size: 1.3em;
+    font-size: 1.29em;
     font-weight: bold;
     text-decoration: none;
     list-style-type: none;
